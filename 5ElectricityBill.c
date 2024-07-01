@@ -38,6 +38,6 @@ int main() {
     }
     printf("Customer ID: %d\n", custID);
     printf("Customer Name: %s\n", name);
-    printf("Total Amount to be Paid: Rs. %.2f\n", totalBill);
+    printf("Bill Amount: Rs. %.2f\n", totalBill);
     return 0;
 }
