@@ -2,7 +2,7 @@
 
 int factorialRecursion(int n) {
     if (n == 0) {
-        return 1;
+        return 1;  //Base case
     } else {
         return n * factorialRecursion(n - 1);
     }
